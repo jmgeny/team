@@ -1,5 +1,43 @@
+.boton1 {
+    background-color: red;
+}
+.boton2 {
+    background-color: blue;
+}
+.boton3 {
+    background-color: yellow;
+}
+
+.boton1, .boton2, .boton3  {
+    text-align: center;
+    margin-top: 10px;
+    width: 30%;
+    height: 60px;
+}
+
+.div_boton {
+    background-color: green;
+    text-align: center;
+}
+
 .principal {
-    margin-top: 10px
+    margin-top: 10px;
+    background-color: red;
+}
+.social {
+    /*background-color: yellow;*/
+}
+.social .fa {
+  /*padding: 5px;*/
+  font-size: 20px;
+  width: 18%;
+  text-align: center;
+  text-decoration: none;
+  /*margin: 5px;      */
+}
+
+.social .fa:hover {
+    opacity: 0.7;
 }
 
 /*ejemplo*/
@@ -13,9 +51,9 @@
         font-size: 20px;
         color: #111;
     }
-    .container {
-        padding: 80px 120px;
-    }
+/*    .container {
+        padding: 10px 20px;
+    }*/
     .person {
         border: 10px solid transparent;
         margin-bottom: 25px;
@@ -42,6 +80,10 @@
       .carousel-caption {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
       }
+      .boton {
+        width: 90%;
+      }
+
     }
     .bg-1 {
         background: #2d2d30;

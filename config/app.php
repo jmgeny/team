@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -176,6 +176,8 @@ return [
         // asif\Providers\BroadcastServiceProvider::class,
         asif\Providers\EventServiceProvider::class,
         asif\Providers\RouteServiceProvider::class,
+        //Laravel collective
+        Collective\Html\HtmlServiceProvider::class,
 
     ],
 
@@ -225,7 +227,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        //laravel collective
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,        
     ],
 
 ];

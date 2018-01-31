@@ -26,11 +26,10 @@ class CreateSociosTable extends Migration
             $table->string('genero');
             $table->date('nacimiento');
             $table->string('estadoCivil');
-            $table->string('trabajo');
             $table->string('amputado');//si o no
             $table->string('equipado');//si o no
             $table->string('obraSocial');//si o no 
-            $table->integer('deprote_id');//Tabla deportes
+            $table->integer('deporte_id');//Tabla deportes
             $table->integer('trabajo_id');
             $table->timestamps();
         });

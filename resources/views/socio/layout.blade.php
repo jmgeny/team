@@ -16,7 +16,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li><a href="{{ route('socios.index') }}">Listado</a></li>
-      <li><a href="{{ route('socios.create') }}">Carga</a></li>
+      <li><a href="{{ route('socios.create') }}">Nuevo</a></li>
       <li><a href="#">Page 2</a></li>
       <li><a href="#">Page 3</a></li>
     </ul>

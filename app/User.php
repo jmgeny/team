@@ -1,6 +1,6 @@
 <?php
 
-namespace asif;
+namespace team;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;

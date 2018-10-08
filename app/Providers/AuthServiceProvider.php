@@ -1,6 +1,6 @@
 <?php
 
-namespace asif\Providers;
+namespace team\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'asif\Model' => 'asif\Policies\ModelPolicy',
+        'team\Model' => 'team\Policies\ModelPolicy',
     ];
 
     /**

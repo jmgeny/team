@@ -11,13 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-	return view('index');
-    // return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
+
+Route::get('/', 'PrincipalController@index');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::resource('socios', 'SocioController');
+Route::get('/atleta/{id}', 'PrincipalController@atleta');

@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => asif\User::class,
+            'model' => team\User::class,
         ],
 
         // 'users' => [

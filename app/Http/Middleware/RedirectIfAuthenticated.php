@@ -1,6 +1,6 @@
 <?php
 
-namespace asif\Http\Middleware;
+namespace team\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

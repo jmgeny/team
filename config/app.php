@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'es',
+    'locale' => 'en',
 
     /*
     |--------------------------------------------------------------------------
@@ -107,23 +107,6 @@ return [
     'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
-
-    /*
-    |--------------------------------------------------------------------------
-    | Logging Configuration
-    |--------------------------------------------------------------------------
-    |
-    | Here you may configure the log settings for your application. Out of
-    | the box, Laravel uses the Monolog PHP logging library. This gives
-    | you a variety of powerful log handlers / formatters to utilize.
-    |
-    | Available Settings: "single", "daily", "syslog", "errorlog"
-    |
-    */
-
-    'log' => env('APP_LOG', 'single'),
-
-    'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
     /*
     |--------------------------------------------------------------------------
@@ -171,13 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        asif\Providers\AppServiceProvider::class,
-        asif\Providers\AuthServiceProvider::class,
-        // asif\Providers\BroadcastServiceProvider::class,
-        asif\Providers\EventServiceProvider::class,
-        asif\Providers\RouteServiceProvider::class,
-        //Laravel collective
-        Collective\Html\HtmlServiceProvider::class,
+        team\Providers\AppServiceProvider::class,
+        team\Providers\AuthServiceProvider::class,
+        // team\Providers\BroadcastServiceProvider::class,
+        team\Providers\EventServiceProvider::class,
+        team\Providers\RouteServiceProvider::class,
 
     ],
 
@@ -227,9 +208,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        //laravel collective
-        'Form' => Collective\Html\FormFacade::class,
-        'Html' => Collective\Html\HtmlFacade::class,        
+
     ],
 
 ];

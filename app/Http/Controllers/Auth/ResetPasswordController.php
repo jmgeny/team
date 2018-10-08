@@ -1,8 +1,8 @@
 <?php
 
-namespace asif\Http\Controllers\Auth;
+namespace team\Http\Controllers\Auth;
 
-use asif\Http\Controllers\Controller;
+use team\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class ResetPasswordController extends Controller

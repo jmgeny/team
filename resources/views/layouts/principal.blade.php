@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>@yield('titulo')</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-{{--   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"> --}}
-  <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Equipo de Ciclismo de Bragado">
+    <meta name="author" content="Juan Manuel Geny">
 
-  <link rel="stylesheet" href="css/style.css">
+    <title>Cicles Club</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 
-</head>
-<body id="inicio">
-@include('header')	
+    <!-- Custom Fonts -->
+    <link href="{{ asset('css/font-awesome/css/font-awesome.css') }}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/simple-line-icons/css/simple-line-icons.css') }}" rel="stylesheet">
 
-<section class="container principal">
-	@yield('content')
+    <!-- Custom CSS -->
+    <link href="{{ asset('css/stylish-portfolio.css') }}" rel="stylesheet">
+  </head>
 
-	@include('pilares')
+  <body id="page-top">
+    
+    @yield('content')
+   
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
 
-	@include('benefactor')
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ asset('js/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 
-	@include('links')
+    <!-- Plugin JavaScript -->
+    <script src="{{ asset('js/jquery-easing/jquery.easing.min.js') }}"></script>
 
-	@include('novedades')
+    <!-- Custom scripts for this template -->
+    <script src="{{ asset('js/stylish-portfolio.min.js') }}"></script>
 
-	@include('contacto')
+  </body>
 
-</section>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>		
-</body>
 </html>

@@ -5,22 +5,22 @@
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">Bragado Cicles</a>
+          <a class="js-scroll-trigger" href="#page-top">Team Bragado</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#page-top">Inicio</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">Nosotros</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Sponsor</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#nota">Notas</a>
         </li>        
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#services">Atletas</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#portfolio">Sponsor</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#about">Nosotros</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#contact">Contacto</a>

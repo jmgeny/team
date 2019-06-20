@@ -5,10 +5,16 @@
 @section('content')
 
     <!-- Navigation -->
-    @include('navprincipal')
+    @include('navPrincipal')
     
     <!-- Header -->
     @include('header')
+
+    <!-- Portfolio -->
+    @include('sponsor')
+
+    <!-- About -->
+    @include('about')
 
     {{-- notas --}}
 
@@ -16,12 +22,6 @@
 
     <!-- Services -->
     @include('atletas')
-
-    <!-- Portfolio -->
-    @include('sponsor')
-
-    <!-- About -->
-    @include('nosotros')
 
     <!-- Map -->
     @include('contact')

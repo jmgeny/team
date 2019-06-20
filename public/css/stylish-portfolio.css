@@ -42,6 +42,7 @@ h6 {
 /* Map */
 .map {
   height: 30rem;
+  padding-top: 1rem;
 }
 
 @media (max-width: 992px) {
@@ -87,7 +88,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/mundoTri.jpg");
+  background-image: url("../img/mundoTri.jpg");
+  /*background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/mundoTri.jpg");*/
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -299,8 +301,8 @@ h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 footer.footer .social-link {

@@ -1,17 +1,18 @@
+{{-- Redes del equipo --}}
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
             <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-facebook"></i>
+              <i class="fab fa-facebook-f"></i>
             </a>
           </li>
           <li class="list-inline-item">
             <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-twitter"></i>
+              <i class="fab fa-twitter"></i>
             </a>
           </li>
           <li class="list-inline-item">
             <a class="social-link rounded-circle text-white" href="#">
-              <i class="icon-social-github"></i>
+              <i class="fab fa-instagram"></i>
             </a>
           </li>
         </ul>

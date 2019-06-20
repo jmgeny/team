@@ -1,6 +1,6 @@
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
-        <h1 class="mb-1">Bragado Team</h1>
+        <h1 class="mb-1">Team Bragado</h1>
         <h3 class="mb-5">
           <em>Equipo deportivo Bragado</em>
         </h3>

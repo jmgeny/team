@@ -20,5 +20,3 @@ Route::get('/', 'PrincipalController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/atleta/{id}', 'PrincipalController@atleta');

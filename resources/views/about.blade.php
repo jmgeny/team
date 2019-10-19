@@ -1,4 +1,4 @@
-    <section class="content-section bg-light" id="about">
+    <section class="content-section bg-primary" id="about">
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">

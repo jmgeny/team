@@ -6,49 +6,39 @@
         </div>
         <div class="row no-gutters">
           <div class="col-lg-3">
-            <a class="portfolio-item" href="https://www.specialized.com" target="new">
+              <button type="button" class="portfolio-item" data-toggle="modal" data-target="#sponsorModal">
               <span class="caption">
                 <span class="caption-content">
-                  {{-- <h2>Stationary</h2> --}}
-                  {{-- <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p> --}}
                 </span>
               </span>
-              <img class="img-fluid" src="img/specialized.png" alt="">
-            </a>
+              <img class="img-fluid" src="{{ asset('img/sponsors/specialized.png') }}" alt="Specialized">
           </div>
           <div class="col-lg-3">
-            <a class="portfolio-item" href="https://www.cornel.com.ar" target="new">
+              <button type="button" class="portfolio-item" data-toggle="modal" data-target="#sponsorModal">
               <span class="caption">
                 <span class="caption-content">
-                  {{-- <h2>Ice Cream</h2> --}}
-                  {{-- <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p> --}}
                 </span>
               </span>
-              <img class="img-fluid" src="img/cornel.png" alt="">
-            </a>
+              <img class="img-fluid" src="{{ asset('img/sponsors/alemana.png') }}" alt="Specialized">
           </div>
           <div class="col-lg-3">
-            <a class="portfolio-item" href="https://www.grupoalemana.com/Ortopedia" target="new" >
+              <button type="button" class="portfolio-item" data-toggle="modal" data-target="#sponsorModal">
               <span class="caption">
                 <span class="caption-content">
-                  {{-- <h2>Strawberries</h2> --}}
-                  {{-- <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p> --}}
                 </span>
               </span>
-              <img class="img-fluid" src="img/alemana.png" alt="">
-            </a>
+              <img class="img-fluid" src="{{ asset('img/sponsors/cornel.png') }}" alt="Specialized">
           </div>
           <div class="col-lg-3">
-            <a class="portfolio-item" href="https://infoenard.org.ar/" target="new">
+              <button type="button" class="portfolio-item" data-toggle="modal" data-target="#sponsorModal">
               <span class="caption">
                 <span class="caption-content">
-                  {{-- <h2>Workspace</h2> --}}
-                  {{-- <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p> --}}
                 </span>
               </span>
-              <img class="img-fluid" src="img/enard.png" alt="">
-            </a>
-          </div>
+              <img class="img-fluid" src="{{ asset('img/sponsors/enard.png') }}" alt="Specialized">
+          </div>                              
         </div>
       </div>
     </section>
+
+@include('sponsors.sponsor')    

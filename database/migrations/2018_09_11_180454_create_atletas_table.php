@@ -23,10 +23,10 @@ class CreateAtletasTable extends Migration
             $table->string('pais');
             $table->string('descripcion');
             $table->date('nacimiento');
-            $table->string('facebook');
-            $table->string('twiter');
-            $table->string('instagram');                        
-            $table->string('avatar')->nullable();
+            $table->string('facebook')->default('https://www.facebook.com/juanmageny');
+            $table->string('twiter')->default('https://twitter.com/paratriatlon');
+            $table->string('instagram')->default('https://www.instagram.com/juanmanuelgeny');                        
+            $table->string('avatar')->default('img/avatar/profile.jpg');
             $table->timestamps();
         });
     }
